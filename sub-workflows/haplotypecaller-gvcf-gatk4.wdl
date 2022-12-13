@@ -119,7 +119,7 @@ task UnpackIntervals {
     }
     runtime {
         docker: docker 
-        cpu: 2
+        cpu: 64
         memory: "2 GiB"
    }
     output {
